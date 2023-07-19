@@ -46,6 +46,7 @@
 }
 .Play-Instantly{
   flex-direction: column;
+  gap: 3rem;
 }
 .s4-text, .s5-text{
   padding: 0;
@@ -70,10 +71,21 @@
 
 .Play-Games-Online{
   flex-direction: column-reverse;
+  gap: 3rem;
 }
 .s4-image{
   margin-right: 2rem;
 }
+.s5-image2 img{
+  width: 60%;
+}
+.s5-image2{
+  bottom: 16rem;
+  left: 50rem;
+  float: right;
+}
+
+
 .s5-text h3{
   text-align: center;
   margin-bottom: 20px;
@@ -120,17 +132,52 @@ footer{
   row-gap: 3rem;
   margin-bottom: 40px;
 }
-
-
-
-
-
-
 }
 
 
 /* ////////////////////////////////// */
 
 @media screen and (min-width:676px) and (max-width: 960px){
+  header{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .nav-logo{
+    gap: 1rem;
+  }
+  nav > ul{
+    gap: 1rem;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .s3-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Play-Instantly{
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .Play-Games-Online{
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+  .Games-list{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .f-text{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .f-logos{
+    gap: 1rem;
+  }
+  footer{
+    padding-top: 60px;
+    height: 550px;
+  }
 
 }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  */
