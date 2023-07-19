@@ -257,6 +257,14 @@ main{
   font-weight: 600;
   text-align: center;
 }
+.s7-card:hover{
+  border: 2px solid #FF42A5;
+  border-radius: 50px;
+  color: #FF42A5;
+}
+.s7-card p:hover{
+  color: #FF42A5;
+}
 /* ///////////////////////////////// */
 footer{
   background-color: #111010;
@@ -298,6 +306,7 @@ footer{
   gap: 37px;
   justify-content: center;
 }
+
 /* //// */
 .f-text2{
   display: flex;
