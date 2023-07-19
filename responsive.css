@@ -1,0 +1,102 @@
+@media screen and (max-width:676px){
+  header {
+    box-shadow: none;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 3rem;
+    max-height: 700px;
+
+  }
+  nav > ul{
+    flex-direction: column;
+  }
+  #nav-right{
+    max-height: 3.5rem;
+    width: auto;
+  }
+  #nav-right img{
+    width: 15%;
+
+  }
+  main{
+    max-width: 412px;
+    margin: 0;
+    margin: 30px auto;
+  }
+
+.banner{
+  flex-direction: column-reverse;
+  margin-top: 40px;
+}
+.s1-box2{
+  max-width: 25.75rem;
+  
+}
+.s1-box1{
+  padding-top: 10px;
+}
+.s3-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap 10px;
+  justify-items: center;
+}
+.Play-Instantly{
+  flex-direction: column;
+}
+.s4-text, .s5-text{
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+.s4-text h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.s4-text p{
+  text-align: center;
+  margin-top: 10px;
+}
+.s4-image{
+  margin-left: 2rem;
+}
+.s4-image2{
+  bottom: 134px;
+  right: 85px;
+}
+
+.Play-Games-Online{
+  flex-direction: column-reverse;
+}
+.s4-image{
+  margin-right: 2rem;
+}
+.s5-text h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.s5-text p{
+  text-align: center;
+  margin-top: 10px;
+}
+.s5-image2{
+  bottom: 10rem;
+  left: 13rem;
+}
+
+
+
+
+
+
+}
+
+
+/* ////////////////////////////////// */
+
+@media screen and (min-width:676px) and (max-width: 960px){
+
+}
