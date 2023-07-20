@@ -83,12 +83,13 @@ main{
 .banner{
   display: flex;
   justify-content: space-between;
-}
-.s1-box1 {
-  background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
   background-image: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.s1-box1 {
   text-align: center;
-  /* max-width: 901px; */
   padding-top: 9.25rem;
 }
 .s1-box1-h3{
@@ -114,7 +115,7 @@ main{
   
 }
 .s1-box2 img{
-  width: 100%;
+  width: 90%;
 }
 /* ////////////////////////////////// */
 .Online-Games{
